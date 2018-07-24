@@ -1,10 +1,10 @@
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
 body {
 	background-color: #BEACC2;
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", "EB Garamond", "Times New Roman", serif;
+	/*font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", "EB Garamond", "Times New Roman", serif;*/
 }
 
 h1 {
@@ -33,7 +33,7 @@ a:active {
 	text-decoration: none;
 }
 
-.column {
+/*.column {
 	float: left;
 	padding: 15px;
 }
@@ -62,4 +62,4 @@ a:active {
     content: "";
     clear: both;
     display: table;
-}
+}*/
