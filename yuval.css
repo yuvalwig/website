@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #BEACC2;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", "EB Garamond", "Times New Roman", serif;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h2,h3 {
+	font-weight: 600;
+}
+
+b {
+	font-weight: 600;
+}
+
+a:link,a:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: #621E78;
+	text-decoration: none;
+}
+
+a:active {
+	color: red;
+	text-decoration: none;
+}
+
+.column {
+	float: left;
+	padding: 15px;
+}
+
+.navbar {
+	width: 20%;
+}
+
+.content {
+	width: 60%;
+	margin-right: 20%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	margin-left: 7pt;
+	padding: 0;
+}
+
+.header {
+	text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
